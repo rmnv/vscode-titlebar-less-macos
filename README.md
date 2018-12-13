@@ -45,9 +45,9 @@ options:
    menus.
 
 2. Choose `Don't Show Again`:
-    <p align="center">
-      <img src="https://raw.githubusercontent.com/lehni/vscode-titlebar-less-macos/master/resources/dont-show-again.png" alt="Don't Show Again">
-    </p>
+   <p align="center">
+     <img src="https://raw.githubusercontent.com/lehni/vscode-titlebar-less-macos/master/resources/dont-show-again.png" alt="Don't Show Again">
+   </p>
 
 See [Disclaimer / A Word of Caution](#disclaimer--a-word-of-caution) for
 details.
@@ -63,7 +63,7 @@ these lines:
 ```json
 "window.titleBarStyle": "custom",
 "window.nativeTabs": false,
- ```
+```
 
 ## Applying the Patches as Root
 
@@ -110,6 +110,18 @@ Titlebar-Less: Enable
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/lehni/vscode-titlebar-less-macos/master/resources/before-after.png" alt="Before/After">
+</p>
+
+## Colored titlebar
+
+```json
+  "workbench.colorCustomizations": {
+    "titleBar.activeBackground": "#87e2b03a"
+  }
+```
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/rmnv/vscode-titlebar-less-macos/master/resources/colored-titlebar.png" alt="Colored titlebar">
 </p>
 
 ## Inspiration
