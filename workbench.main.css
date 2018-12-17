@@ -157,10 +157,10 @@
   -webkit-app-region: no-drag;
 }
 
-.monaco-workbench.titlebar-less .title-actions {
+.monaco-workbench.titlebar-less .title > .title-actions {
   display: none !important;
 }
-.part.editor > .content {
+[id="workbench.parts.editor"] > .content {
   background-color: transparent !important;
 }
 .part.titlebar {
